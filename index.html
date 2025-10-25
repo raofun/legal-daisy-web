@@ -31,7 +31,7 @@
                     colors: {
                         clifford: '#da373d',
                         'law-prmry': 'rgba(182, 140, 90, 1)',
-                        'law-bg': 'rgba(182, 140, 90, 0.1)',
+                        'law-bg': '#F3F3F3',
                         'dark-3': '#707070',
 
                     },
@@ -165,7 +165,7 @@
             </div>
         </div>
     </header>
-    <main class="my-32 md:container md:mx-auto md:px-36">
+    <main class="mb-32 md:container md:mx-auto md:px-36 space-y-32">
         <!-- Legal Practice -->
         <section>
             <div class="text-center">
@@ -294,7 +294,7 @@
         </section>
 
         <!-- What Client Say Section -->
-        <section class="my-32">
+        <section>
 
             <div class="text-center">
                 <h1 class="text-3xl font-extrabold font-eb-garamond mb-5">What Our Client Say</h1>
@@ -431,7 +431,7 @@
                     majority have suffered alteration in some form, by injected humour.</p>
             </div>
             <!-- design part -->
-            <div class="flex gap-2">
+            <div class=" md:flex  gap-2 ">
                 <!-- Accordion -->
                 <div class="flex-1 space-y-8">
                     <div class="collapse collapse-plus bg-base-200">
@@ -469,19 +469,136 @@
 
                 </div>
                 <!-- image -->
-                <div class="flex-1">
-                    <img class="w-full h-4/6" src="images/faq.png" alt="Frequently Asked Questions">
+                <div class="flex-1 ">
+                    <img class="w-full h-3/4 md:h-full " src="images/faq.png" alt="Frequently Asked Questions">
                 </div>
             </div>
         </section>
 
         <!-- Contact -->
         <section>
-            
+            <div class="text-center">
+                <h1 class="text-3xl font-extrabold font-eb-garamond mb-5">Contact With Us</h1>
+                <p class="w-4/6 mx-auto mb-16 text-dark-3">There are many variations of passages of Lorem Ipsum
+                    available, but the
+                    majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <!-- Lower Part -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- left Cards -->
+                <div class="  grid grid-cols-2 ">
+                    <div class="card rounded-none bg-base-100 border-r border-b  border-[#CFCFCF] md:p-8 bg-law-bg">
+                        <figure class="px-10 pt-10">
+                            <img src="images/address.png" alt="Address" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title font-eb-garamond font-extrabold ">Address</h2>
+                            <p class="w-5/6">A108 Adam Street,
+                                New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="card rounded-none bg-base-100 border-b  border-[#CFCFCF] md:py-8 px-0 bg-law-bg">
+                        <figure class="px-10 pt-10">
+                            <img src="images/call.png" alt="Call Us" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title font-eb-garamond font-extrabold ">Call Us</h2>
+                            <p class="w-4/6">+88 01750 00 00 00 <br>
+                                +88 01750 00 00 00</p>
+                        </div>
+                    </div>
+                    <div class="card rounded-none bg-base-100 border-r  border-[#CFCFCF] md:p-8 bg-law-bg">
+                        <figure class="px-10 pt-10">
+                            <img src="images/email.png" alt="Email Us" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title font-eb-garamond font-extrabold ">Email Us</h2>
+                            <p class="w-4/6">info@gmail.com <br>
+                                info@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="card rounded-none bg-base-100  border-[#CFCFCF] md:p-8 bg-law-bg">
+                        <figure class="px-10 pt-10">
+                            <img src="images/time.png" alt="Working Hours" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title font-eb-garamond font-extrabold ">Working Hours</h2>
+                            <p class="w-4/6">Mon-Fri: 9AM to 5PM <br>
+                                Sunday: 9AM to 1 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- right Cards -->
+                <div class=" space-y-10">
+                    <input type="text" placeholder="Your Name" class="input  w-full h-20 bg-law-bg" />
+                    <input type="text" placeholder="Your Email" class="input w-full h-20 bg-law-bg" />
+                    <input type="text" placeholder="Subject" class="input    w-full h-20     bg-law-bg" />
+                    <div>
+                        <textarea class="textarea w-full bg-law-bg min-h-40" placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="btn bg-law-prmry text-white w-full h-20">Send Message</button>
+
+                </div>
+            </div>
+
         </section>
 
     </main>
-    <footer></footer>
+    <footer class="">
+        <div class="footer bg-black text-dark-3 px-10 md:container md:mx-auto md:px-36 py-16">
+            <div>
+                <img src="images/logo.png" alt="">
+                <p class="text-dark-3 w-56">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div>
+                <h6 class="text-white text-lg font-bold font-eb-garamond">Usefull Links</h6>
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Cases</a>
+                <a class="link link-hover">Blog</a>
+                <a class="link link-hover">Contact</a>
+            </div>
+            <div>
+                <h6 class="text-white text-lg font-bold font-eb-garamond">Contact Now</h6>
+                <a class="link link-hover">555 4th 5t NW, Washington <br>
+                    DC 20530, United States</a>
+                <a class="link link-hover">+88 01750 000 000 <br>
+                    +88 01750 000 000</a>
+                <a class="link link-hover">info@gmail.com <br>
+                    info@gmail.com</a>
+            </div>
+            <form>
+                <h6 class="text-white text-lg font-bold font-eb-garamond">Subscribe</h6>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Subscribe for our latest & Articles. We Won’t Give You Spam
+                            Mails</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="Email Address" class="input input-bordered join-item" />
+                        <button class="btn bg-law-prmry border-none join-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"
+                                fill="none">
+                                <g clip-path="url(#clip0_12_37)">
+                                    <path
+                                        d="M12.7279 21.2134L4.52197 16.8696C10.4846 13.5935 16.9629 11.3595 23.6775 10.2638C22.5826 16.9785 20.3492 23.457 17.0738 29.4201L12.7279 21.2134ZM12.7279 21.2134L18.0312 15.9101"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_12_37">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0 16.9707) rotate(-45)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </footer>
 
 </body>
 
